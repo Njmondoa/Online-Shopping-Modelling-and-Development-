@@ -45,14 +45,10 @@ Project plan with Gantt project
 
 
 ##  MODELING THE REQUIREMENTS
-### Login 
-It is the login session for the Administrator, customer and Exit.
-### Product Details 
-It is used to view the product details from the database. 
-### Add New Products
-It is used to add a product into the database and it includes searching for product details and removing a product from the database. 
-### Updating the Quantity
-It is used to update the product details from the database
+`Login` *It is the login session for the Administrator, customer and Exit.
+`Product *Details` used to view the product details from the database. 
+`Add New Products` *used to add a product into the database and it includes searching for product details and removing a product from the database. 
+`Updating the Quantity` *used to update the product details from the database
 
 
 ## UML Diagram 
@@ -68,19 +64,12 @@ Relationships are simply illustrated with a line connecting actors to use cases.
 
 ![](/UseCaseManagementPackage.jpg)
 
-- Deployment Diagram
-
-![](/DeploymentDiagram.jpg)
 
 ### Class Diagram 
 A class diagram shows the building blocks of any object-orientated system. Class diagrams portray a static view of the model, or part of the model, describing what attributes and behavior it has rather than detailing the methods for achieving operations. Class diagrams are most useful in illustrating relationships between classes and interfaces. Generalizations, aggregations, and associations are all valuable in reflecting inheritance, composition or usage, and connections respectively.
 
 - Class Diagram
 ![](/ClassDiagram.jpg)
-
-- Object Diagram
-
-![](/ObjectDiagram.jpg)
 
 ### Package Diagram
 - Order Management Package
@@ -114,10 +103,6 @@ interaction diagram that shows how processes operate with one another and in wha
 
 ![](/SequenceOrderProduct.jpg)
 
- Sequence Order Product Communications
-
-![](/SequenceOrderProductCommunications.jpg)
-
  Sequence Search Products
 
 ![](/SequenceSearchProducts.jpg)
@@ -125,8 +110,6 @@ interaction diagram that shows how processes operate with one another and in wha
  Sequence Search Products Communications
 
 ![](/SequenceSearchProductsCommunications.jpg)
-
-- UseCase Management Package
 
 
 ### Activity Diagram
@@ -180,7 +163,6 @@ A deployment diagram models the run-time architecture of a system. It shows the 
 
 
 ![](/DeploymentDiagram.jpg)
-
 
 ### Physical Data Model
 The physical data model (PDM) presents all the necessary tables in our database. It provides a technical and concrete solution which enable the implementation of the web application. The Physical Data Model specifies the type of Database Management System (DBMS) to be used in managing the database. This model exposes a detail structure of the different database files.
