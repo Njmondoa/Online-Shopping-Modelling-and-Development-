@@ -1,23 +1,37 @@
 **SOFTWARE DEVELOPMENT LIFE CYCLE (Online Shopping System)**
 
-|<p>![A picture of a winding road and trees](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.002.jpeg)</p><p>**SOFTWARE DEVELOPMENT LIFE CYCLE (ONLINE SHOPPING SYSTEM)**</p><p>**     </p>|<p>**M.N**</p><p></p>|
-| -: | :- |
 
-![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.001.png)
+# Online Shopping Modelling 
+
+Tools
+--------------------------------------
+
+- Visual Paradigm for Unified Modeling Language (UML), 
+- Gantt Project for Project Planning,
+- Microsoft Word for Technical Documentation.
+- Mysql workbench 
+- Mysql Server 
+- DBeaver
+- Selenium IDE
+
+
+Project Delivery
+---------------------------------------
+
+- Gantt chart
+- Technical Document
+- UML diagrams
+- Sql Script
+- Selenium Test Script
+
+
+
 # ABSTRACT
 The Online Shopping system enables vendors to set up online shops, customers to browse through the shops, and a system administrator to approve and reject requests for new shops and maintain lists of shop categories. Also, on the agenda is designing an online shopping site to manage the items in the shop and also help customers purchase them online without having to visit the shop physically. Our online shopping mall will use the internet as the sole method for selling goods to its consumers. Shopping will be highly personalized and the mall will provide lower prices than most competitors.
 
 ![What is SDLC? Software lifecycle stages, methodology and processes -  Prog.world](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.004.png)
 
 ![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.003.png)
-
-
-
-
-
-
-
-
 
 
 # PHASE 1: REQUIREMENT ANALYSIS
@@ -70,31 +84,38 @@ Use case is a particular activity a user can do on the system. Relationship:
 
 Relationships are simply illustrated with a line connecting actors to use cases.
 
-![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.006.jpeg)
+- UseCase Management Package
+
+![](/UseCaseManagementPackage.jpg)
+
 ## 3.2. Class Diagram 
 A class diagram shows the building blocks of any object-orientated system. Class diagrams portray a static view of the model, or part of the model, describing what attributes and behavior it has rather than detailing the methods for achieving operations. Class diagrams are most useful in illustrating relationships between classes and interfaces. Generalizations, aggregations, and associations are all valuable in reflecting inheritance, composition or usage, and connections respectively.
 
 
-![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.007.jpeg)
+![](/ClassDiagram.jpg)
 
 
 ## 3.2. Package Diagram
 
 **Package diagram** is UML structure **diagram** which shows structure of the designed system at the level of **packages**. The following elements are typically drawn in a **package diagram**: **package**, packageable element, dependency, element import, **package** import, **package** merge.
 
-![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.008.jpeg)
 
+- Order Management Package
 
+![](/OrderManagementPackage.jpg)
 
+- Package
 
-![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.009.jpeg)
-
-
-Package <<Product Management >>
-
-![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.010.jpeg)
+![](/Package.jpg)
 
 Package <<Account Management>>
+  
+  
+
+- product Management Package
+  
+
+![](/productManagementPackage.jpg)
 
 
 ## 3.2. Sequence Diagram 
@@ -102,17 +123,21 @@ A sequence diagram in Unified Modeling Language (UML) is a kind of
 
 interaction diagram that shows how processes operate with one another and in what order. It is a construct of a Message Sequence Chart. Sequence diagrams are sometimes called event diagrams, event scenarios, and timing diagrams.
 
-Sequence diagram <<Search product>>
+- Sequence Order Product
 
-![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.011.jpeg)
+![](/SequenceOrderProduct.jpg)
 
+- Sequence Order Product Communications
 
+![](/SequenceOrderProductCommunications.jpg)
 
+- Sequence Search Products
 
-Sequence diagram <<add product>>
+![](/SequenceSearchProducts.jpg)
 
+- Sequence Search Products Communications
 
-![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.012.jpeg)
+![](/SequenceSearchProductsCommunications.jpg)
 
 
 
@@ -120,14 +145,9 @@ Sequence diagram <<add product>>
 
 In UML, an activity diagram is used to display the sequence of activities. Activity diagrams show the workflow from a start point to the finish point detailing the many decision paths that exist in the progression of events contained in the activity. They may be used to detail situations where parallel processing may occur in the execution of some activities. Activity diagrams are useful for business modelling where they are used for detailing the processes involved in business activities.
 
-Activity diagram <<add product>>
-
-![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.013.jpeg)
 
 
-Activity diagram <<make order>>
-
-![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.014.jpeg)
+![](/ActivityOrder.jpg)
 
 
 ## 3.2. Object Diagram
@@ -136,7 +156,8 @@ objects in a system and representing the associations between the objects as lin
 
 
 
-![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.015.jpeg)
+![](/ObjectDiagram.jpg)
+
 
 
 ## 3.2. Communication Diagram 
@@ -172,216 +193,17 @@ A deployment diagram models the run-time architecture of a system. It shows the 
 
 
 
-![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.019.jpeg)
+![](/DeploymentDiagram.jpg)
 
 
 
 ## 4.2. Physical Data Model
 The physical data model (PDM) presents all the necessary tables in our database. It provides a technical and concrete solution which enable the implementation of the web application. The Physical Data Model specifies the type of Database Management System (DBMS) to be used in managing the database. This model exposes a detail structure of the different database files.
 
-![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.020.jpeg)
 
+- Pysical Data Model
 
-
-## 4.3. Script 
-
-CREATE TABLE `admin` (
-
-`  ``id` int(11) NOT NULL,
-
-`  ``username` varchar(255) NOT NULL,
-
-`  ``password` varchar(255) NOT NULL,
-
-`  ``creationDate` timestamp NOT NULL DEFAULT CURRENT\_TIMESTAMP,
-
-`  ``updationDate` varchar(255) NOT NULL
-
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-CREATE TABLE `category` (
-
-`  ``id` int(11) NOT NULL,
-
-`  ``categoryName` varchar(255) DEFAULT NULL,
-
-`  ``categoryDescription` longtext,
-
-`  ``creationDate` timestamp NOT NULL DEFAULT CURRENT\_TIMESTAMP,
-
-`  ``updationDate` varchar(255) DEFAULT NULL
-
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-CREATE TABLE `orders` (
-
-`  ``id` int(11) NOT NULL,
-
-`  ``userId` int(11) DEFAULT NULL,
-
-`  ``productId` varchar(255) DEFAULT NULL,
-
-`  ``quantity` int(11) DEFAULT NULL,
-
-`  ``orderDate` timestamp NOT NULL DEFAULT CURRENT\_TIMESTAMP,
-
-`  ``paymentMethod` varchar(50) DEFAULT NULL,
-
-`  ``orderStatus` varchar(55) DEFAULT NULL
-
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-CREATE TABLE `ordertrackhistory` (
-
-`  ``id` int(11) NOT NULL,
-
-`  ``orderId` int(11) DEFAULT NULL,
-
-`  ``status` varchar(255) DEFAULT NULL,
-
-`  ``remark` mediumtext,
-
-`  ``postingDate` timestamp NOT NULL DEFAULT CURRENT\_TIMESTAMP
-
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-
-CREATE TABLE `productreviews` (
-
-`  ``id` int(11) NOT NULL,
-
-`  ``productId` int(11) DEFAULT NULL,
-
-`  ``quality` int(11) DEFAULT NULL,
-
-`  ``price` int(11) DEFAULT NULL,
-
-`  ``value` int(11) DEFAULT NULL,
-
-`  ``name` varchar(255) DEFAULT NULL,
-
-`  ``summary` varchar(255) DEFAULT NULL,
-
-`  ``review` longtext,
-
-`  ``reviewDate` timestamp NOT NULL DEFAULT CURRENT\_TIMESTAMP
-
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-
-CREATE TABLE `products` (
-
-`  ``id` int(11) NOT NULL,
-
-`  ``category` int(11) NOT NULL,
-
-`  ``subCategory` int(11) DEFAULT NULL,
-
-`  ``productName` varchar(255) DEFAULT NULL,
-
-`  ``productCompany` varchar(255) DEFAULT NULL,
-
-`  ``productPrice` int(11) DEFAULT NULL,
-
-`  ``productPriceBeforeDiscount` int(11) DEFAULT NULL,
-
-`  ``productDescription` longtext,
-
-`  ``productImage1` varchar(255) DEFAULT NULL,
-
-`  ``productImage2` varchar(255) DEFAULT NULL,
-
-`  ``productImage3` varchar(255) DEFAULT NULL,
-
-`  ``shippingCharge` int(11) DEFAULT NULL,
-
-`  ``productAvailability` varchar(255) DEFAULT NULL,
-
-`  ``postingDate` timestamp NULL DEFAULT CURRENT\_TIMESTAMP,
-
-`  ``updationDate` varchar(255) DEFAULT NULL
-
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-CREATE TABLE `subcategory` (
-
-`  ``id` int(11) NOT NULL,
-
-`  ``categoryid` int(11) DEFAULT NULL,
-
-`  ``subcategory` varchar(255) DEFAULT NULL,
-
-`  ``creationDate` timestamp NULL DEFAULT CURRENT\_TIMESTAMP,
-
-`  ``updationDate` varchar(255) DEFAULT NULL
-
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-
-CREATE TABLE `userlog` (
-
-`  ``id` int(11) NOT NULL,
-
-`  ``userEmail` varchar(255) DEFAULT NULL,
-
-`  ``userip` binary(16) DEFAULT NULL,
-
-`  ``loginTime` timestamp NULL DEFAULT CURRENT\_TIMESTAMP,
-
-`  ``logout` varchar(255) DEFAULT NULL,
-
-`  ``status` int(11) DEFAULT NULL
-
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-CREATE TABLE `users` (
-
-`  ``id` int(11) NOT NULL,
-
-`  ``name` varchar(255) DEFAULT NULL,
-
-`  ``email` varchar(255) DEFAULT NULL,
-
-`  ``contactno` bigint(11) DEFAULT NULL,
-
-`  ``password` varchar(255) DEFAULT NULL,
-
-`  ``shippingAddress` longtext,
-
-`  ``shippingState` varchar(255) DEFAULT NULL,
-
-`  ``shippingCity` varchar(255) DEFAULT NULL,
-
-`  ``shippingPincode` int(11) DEFAULT NULL,
-
-`  ``billingAddress` longtext,
-
-`  ``billingState` varchar(255) DEFAULT NULL,
-
-`  ``billingCity` varchar(255) DEFAULT NULL,
-
-`  ``billingPincode` int(11) DEFAULT NULL,
-
-`  ``regDate` timestamp NOT NULL DEFAULT CURRENT\_TIMESTAMP,
-
-`  ``updationDate` varchar(255) DEFAULT NULL
-
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-
-CREATE TABLE `wishlist` (
-
-`  ``id` int(11) NOT NULL,
-
-`  ``userId` int(11) DEFAULT NULL,
-
-`  ``productId` int(11) DEFAULT NULL,
-
-`  ``postingDate` timestamp NOT NULL DEFAULT CURRENT\_TIMESTAMP
-
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
-
+![](/PysicalDataModel.jpg)
 
 
 
@@ -410,10 +232,11 @@ Memory leak testing has been done using rational purity software.
 
 # PHASE 6: USER MANUAL
 ## 6.1. User Account
-![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.021.png)
+
+![](/AccountManagementPackage.jpg)
 
 ## 6.2. Products
-![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.022.png)
+![](/product.jpg)
 ## 6.3. Shopping cart
 ![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.023.png)
 
@@ -432,128 +255,6 @@ Memory leak testing has been done using rational purity software.
 
 
 
-# BIBIOGRAPHY
-❖    PHP5 and MYSQL BIBLE by Tim converse and Joyce park with Clark Morgan Wiley publishing, ink, copyright 2004
 
-❖    SQL tutorial pdf by simply easy learning by tutorial point.com 
 
-❖    Benning PHP 5.3 by matt Doyle pdf
 
-❖    Relational Database tutorial pdf
-
-❖    Lecturer 6-project Delivery method pdf
-
-❖    PHP and MySQL web development
-
-
-# WEBOGRAPHY
-
-
-❖   [ ](https://www.w3schools.com/)[**https://www.w3schools.com**](https://www.w3schools.com/): which is the web site that helped us to learn more about PHP, MySQL html, CSS, JavaScript, jQuery and all the web design tool for the programming of the application. Accessed on the 12 May 2021
-
-❖   [ ](https://www.sql.sh/)[**https://www.sql.sh**](https://www.sql.sh/): this website provided us with SQL commands so that we could better manipulate data found in our database and get more knowledge on SQL. Accessed on the 28 May 2021.
-
-❖   [ ](https://www.visaul-paradigm.com/vp)[**https://www.visaul-paradigm.com/vp](https://www.visaul-paradigm.com/vp) **gallery diagrams**: this website helped us to know more about 2.0 and also helped us get all the relationship description of the diagrams. Accessed from the 23th July to the 6 April, 2021.
-
-❖   [ ](https://www.openclassroom.com/)[**https://www.openclassroom.com**](https://www.openclassroom.com/): this website permitted us to get more knowledge in an object-oriented approach of programming. Accessed on the 3 April 2021. 
-
-❖   [ ](https://www.spark/)[**https://www.spark](https://www.spark/) **system.com au/uml-tutorials.html**: this website permitted us to have more information about UML2.0 and more study on how to draw the diagrams. Accessed on the 18 April 2021.
-
-Page 32 | 32
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Online Shopping Modelling 
-
-Tools
---------------------------------------
-
-- Visual Paradigm for Unified Modeling Language (UML), 
-- Gantt Project for Project Planning,
-- Microsoft Word for Technical Documentation.
-- Mysql workbench 
-- Mysql Server 
-- DBeaver
-- Selenium IDE
-
-
-Project Delivery
----------------------------------------
-
-- Gantt chart
-- Technical Document
-- UML diagrams
-- Sql Script
-- Selenium Test Script
-
-
-- Account Management Package
-
-![](/AccountManagementPackage.jpg)
-
-- Activity Order
-
-![](/ActivityOrder.jpg)
-
-- Class Diagram
-
-![](/ClassDiagram.jpg)
-
-- Deployment Diagram
-
-![](/DeploymentDiagram.jpg)
-
-- Object Diagram
-
-![](/ObjectDiagram.jpg)
-
-- Order Management Package
-
-![](/OrderManagementPackage.jpg)
-
-- Package
-
-![](/Package.jpg)
-
-- product
-
-![](/product.jpg)
-
-- product Management Package
-
-![](/productManagementPackage.jpg)
-
-- Pysical Data Model
-
-![](/PysicalDataModel.jpg)
-
-- Sequence Order Product
-
-![](/SequenceOrderProduct.jpg)
-
-- Sequence Order Product Communications
-
-![](/SequenceOrderProductCommunications.jpg)
-
-- Sequence Search Products
-
-![](/SequenceSearchProducts.jpg)
-
-- Sequence Search Products Communications
-
-![](/SequenceSearchProductsCommunications.jpg)
-
-- UseCase Management Package
-
-![](/UseCaseManagementPackage.jpg)
