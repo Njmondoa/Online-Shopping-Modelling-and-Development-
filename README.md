@@ -37,14 +37,6 @@ Tools
 - Selenium IDE
 
 
-Project Delivery
-@ -38,201 +22,62 @@ Project Delivery
-- Selenium Test Script
-
-
-- Account Management Package
-
-![](/AccountManagementPackage.jpg)
 
 ## PLANNING 
 Project plan with Gantt project
@@ -71,7 +63,6 @@ Use Case diagrams show the various activities the users can perform on the syste
 `Actor` is a user of the system playing a particular role. 
 
 `Use case` is a particular activity a user can do on the system. Relationship:
-![](/ActivityOrder.jpg)
 
 Relationships are simply illustrated with a line connecting actors to use cases.
 
@@ -96,48 +87,42 @@ A class diagram shows the building blocks of any object-orientated system. Class
 ![](/OrderManagementPackage.jpg)
 
 **Package diagram** is UML structure **diagram** which shows structure of the designed system at the level of **packages**. The following elements are typically drawn in a **package diagram**: **package**, packageable element, dependency, element import, **package** import, **package** merge.
+
 - Package
 
 ![](/Package.jpg)
 
  Package <<Order Management>>
-- product
 
  ![](/OrderManagementPackage.jpg)
-![](/product.jpg)
-
   
- Package <<Product Management>>
-  
-- product Management Package
+ Package <<product Management>>
 
 ![](/productManagementPackage.jpg)
+ 
+ Package <<Account Management>>
 
-- Pysical Data Model
+![](/AccountManagementPackage.jpg)
+
 
 ### Sequence Diagram 
 A sequence diagram in Unified Modeling Language (UML) is a kind of
 
 interaction diagram that shows how processes operate with one another and in what order. It is a construct of a Message Sequence Chart. Sequence diagrams are sometimes called event diagrams, event scenarios, and timing diagrams.
-![](/PysicalDataModel.jpg)
 
  Sequence Order Product
-- Sequence Order Product
 
 ![](/SequenceOrderProduct.jpg)
 
  Sequence Order Product Communications
-- Sequence Order Product Communications
 
 ![](/SequenceOrderProductCommunications.jpg)
 
  Sequence Search Products
-- Sequence Search Products
 
 ![](/SequenceSearchProducts.jpg)
 
  Sequence Search Products Communications
-- Sequence Search Products Communications
 
 ![](/SequenceSearchProductsCommunications.jpg)
 
@@ -151,7 +136,7 @@ In UML, an activity diagram is used to display the sequence of activities. Activ
 
 
 ![](/ActivityOrder.jpg)
-
+ 
 
 ### Object Diagram
 
