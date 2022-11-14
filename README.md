@@ -44,13 +44,13 @@ Project Delivery
 
 - Account Management Package
 
+![](/AccountManagementPackage.jpg)
+
 ## PLANNING 
 Project plan with Gantt project
 
 ![](gantt.png)
-![](/AccountManagementPackage.jpg)
 
-- Activity Order
 
 ##  MODELING THE REQUIREMENTS
 ### Login 
@@ -74,26 +74,25 @@ Use Case diagrams show the various activities the users can perform on the syste
 ![](/ActivityOrder.jpg)
 
 Relationships are simply illustrated with a line connecting actors to use cases.
-- Class Diagram
-
-- UseCase Management Package
-![](/ClassDiagram.jpg)
 
 ![](/UseCaseManagementPackage.jpg)
+
 - Deployment Diagram
+
+![](/DeploymentDiagram.jpg)
 
 ### Class Diagram 
 A class diagram shows the building blocks of any object-orientated system. Class diagrams portray a static view of the model, or part of the model, describing what attributes and behavior it has rather than detailing the methods for achieving operations. Class diagrams are most useful in illustrating relationships between classes and interfaces. Generalizations, aggregations, and associations are all valuable in reflecting inheritance, composition or usage, and connections respectively.
-![](/DeploymentDiagram.jpg)
+
+- Class Diagram
+![](/ClassDiagram.jpg)
 
 - Object Diagram
 
-![](/ClassDiagram.jpg)
 ![](/ObjectDiagram.jpg)
 
-- Order Management Package
-
 ### Package Diagram
+- Order Management Package
 ![](/OrderManagementPackage.jpg)
 
 **Package diagram** is UML structure **diagram** which shows structure of the designed system at the level of **packages**. The following elements are typically drawn in a **package diagram**: **package**, packageable element, dependency, element import, **package** import, **package** merge.
@@ -256,12 +255,3 @@ Memory leak testing has been done using rational purity software.
 ### Log file management
   
 ![](LogFile.png)
-
-
-
-
-
-
-
-
-![](/UseCaseManagementPackage.jpg)
