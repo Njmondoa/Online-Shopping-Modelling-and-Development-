@@ -72,8 +72,6 @@ A class diagram shows the building blocks of any object-orientated system. Class
 ![](/ClassDiagram.jpg)
 
 ### Package Diagram
-- Order Management Package
-![](/OrderManagementPackage.jpg)
 
 **Package diagram** is UML structure **diagram** which shows structure of the designed system at the level of **packages**. The following elements are typically drawn in a **package diagram**: **package**, packageable element, dependency, element import, **package** import, **package** merge.
 
@@ -81,15 +79,15 @@ A class diagram shows the building blocks of any object-orientated system. Class
 
 ![](/Package.jpg)
 
- Package <<Order Management>>
+ Package Order Management
 
  ![](/OrderManagementPackage.jpg)
   
- Package <<product Management>>
+ Package product Management
 
 ![](/productManagementPackage.jpg)
  
- Package <<Account Management>>
+ Package Account Management
 
 ![](/AccountManagementPackage.jpg)
 
@@ -177,7 +175,8 @@ The physical data model (PDM) presents all the necessary tables in our database.
 Preparing the test plan is the first step in the last phase of the software development cycle .The test plan consists of all the activities that had to be done in the software testing phase. This test plan has been documented using the rational test manager software. 
 
 ### Perform Validation Testing 
-Software is completely assembled as a package interfacing errors have been uncovered and a final series of software test validation testing may begin. Validation successive when the customer is satisfied.
+Software is completely assembled as a 
+ interfacing errors have been uncovered and a final series of software test validation testing may begin. Validation successive when the customer is satisfied.
 
 ### Validation Test Criteria 
 Software validation is achieved through a series of black box test that
