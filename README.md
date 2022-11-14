@@ -1,18 +1,8 @@
-**SOFTWARE DEVELOPMENT LIFE CYCLE (Online Shopping System)**
+# SOFTWARE DEVELOPMENT LIFE CYCLE (Online Shopping System) 
+The Online Shopping system enables vendors to set up online shops, customers to browse through the shops, and a system administrator to approve and reject requests for new shops and maintain lists of shop categories. Also, on the agenda is designing an online shopping site to manage the items in the shop and also help customers purchase them online without having to visit the shop physically. Our online shopping mall will use the internet as the sole method for selling goods to its consumers. Shopping will be highly personalized and the mall will provide lower prices than most competitors.
 
 
-# Online Shopping Modelling 
-
-Tools
---------------------------------------
-
-- Visual Paradigm for Unified Modeling Language (UML), 
-- Gantt Project for Project Planning,
-- Microsoft Word for Technical Documentation.
-- Mysql workbench 
-- Mysql Server 
-- DBeaver
-- Selenium IDE
+![]([Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.003.png](https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=790b7611503a7f3cf165d6927a9dac42b4b08dce8de36142&rid=giphy.gif&ct=g))
 
 
 Project Delivery
@@ -25,16 +15,7 @@ Project Delivery
 - Selenium Test Script
 
 
-
-# ABSTRACT
-The Online Shopping system enables vendors to set up online shops, customers to browse through the shops, and a system administrator to approve and reject requests for new shops and maintain lists of shop categories. Also, on the agenda is designing an online shopping site to manage the items in the shop and also help customers purchase them online without having to visit the shop physically. Our online shopping mall will use the internet as the sole method for selling goods to its consumers. Shopping will be highly personalized and the mall will provide lower prices than most competitors.
-
-![What is SDLC? Software lifecycle stages, methodology and processes -  Prog.world](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.004.png)
-
-![](Aspose.Words.54e7b9d9-31bc-4eca-83b5-eae7ad3dc277.003.png)
-
-
-# PHASE 1: REQUIREMENT ANALYSIS
+# REQUIREMENT ANALYSIS
 
 This is a small-scale project for Online shopping System. The basic idea is that the candidates can buy products from anywhere during any time by using their card number and password provided to them. The database will maintain the product details information. Customers can view their product details using the card details. This Online shopping system involves two types of users:
 
@@ -50,6 +31,21 @@ ADMINISTRATOR ROLE: The administrator plays a vital role in the Online shopping 
 |Microsoft office|2019|Microsoft corporation|For typing our report| |
 |Netbeans|8.0.2| |IDE|260 Mo|
 |Mozilla Firefox|40|Google|Web browser|8687ko|
+
+
+
+
+Tools
+--------------------------------------
+
+- Visual Paradigm for Unified Modeling Language (UML), 
+- Gantt Project for Project Planning,
+- Microsoft Word for Technical Documentation.
+- Mysql workbench 
+- Mysql Server 
+- DBeaver
+- Selenium IDE
+
 
 # PHASE 2: PLANNING 
 Project plan with Gantt project
